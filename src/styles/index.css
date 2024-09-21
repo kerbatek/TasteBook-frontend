@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body, #root {
+  height: 100%;   /* Ensure that the page height is 100% */
+  margin: 0;      /* Remove default margins */
+  display: flex;
+  flex-direction: column;
+}
